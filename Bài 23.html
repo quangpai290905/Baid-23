@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Table</title>
+    
+    <!-- Liên kết thư viện Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Bài 23.css">
+</head>
+<body>
+
+    <!-- p. Bảng với thẻ caption -->
+    <table class="table table-bordered table-1">
+        <caption>BOOKS</caption>
+        <thead>
+            <tr>
+                <th>Book Name</th>
+                <th>Author Name</th>
+                <th>Genre</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">The Great Gatsby</td>
+                <td rowspan="2">F. Scott Fitzgerald</td>
+                <td>Fiction</td>
+            </tr>
+            <tr>
+                <td>Classic</td>
+            </tr>
+            <tr>
+                <td rowspan="2">To Kill a Mockingbird</td>
+                <td rowspan="2">Harper Lee</td>
+                <td>Fiction</td>
+            </tr>
+            <tr>
+                <td>Drama</td>
+            </tr>
+            <tr>
+                <td rowspan="2">1984</td>
+                <td rowspan="2">George Orwell</td>
+                <td>Dystopian</td>
+            </tr>
+            <tr>
+                <td>Science Fiction</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- q. Tạo bảng thứ hai với màu nền khác -->
+    <table class="table table-bordered table-2">
+        <caption>BOOKS - Table 2</caption>
+        <thead>
+            <tr>
+                <th>Book Name</th>
+                <th>Author Name</th>
+                <th>Genre</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Brave New World</td>
+                <td rowspan="2">Aldous Huxley</td>
+                <td>Dystopian</td>
+            </tr>
+            <tr>
+                <td>Science Fiction</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Pride and Prejudice</td>
+                <td rowspan="2">Jane Austen</td>
+                <td>Romance</td>
+            </tr>
+            <tr>
+                <td>Classic</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- r. Tạo bảng con trong một ô của bảng -->
+    <table class="table table-bordered">
+        <caption>BOOKS with Nested Table</caption>
+        <thead>
+            <tr>
+                <th>Book Name</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>War and Peace</td>
+                <td>
+                    <!-- Bảng con bên trong ô -->
+                    <table class="table table-bordered nested-table">
+                        <thead>
+                            <tr>
+                                <th>Chapter</th>
+                                <th>Page</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>1-20</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>21-40</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

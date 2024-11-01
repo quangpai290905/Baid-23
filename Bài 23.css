@@ -1,0 +1,122 @@
+/* Đường viền độ dày 1 pixel cho bảng, tiêu đề và ô */
+.books-table, .books-table th, .books-table td {
+    border: 1px solid black;
+}
+
+/* Loại bỏ khoảng cách giữa các ô và đường viền của bảng */
+.books-table {
+    border-collapse: collapse;
+}
+
+/* Tăng lề cho cột và ô lên 8px */
+.books-table th, .books-table td {
+    padding: 8px;
+}
+
+/* Căn lề trung tâm cho tiêu đề và trái cho nội dung */
+.books-table th {
+    text-align: center;
+}
+
+.books-table td {
+    text-align: left;
+}
+/* k. Ẩn các thuộc tính từ câu c-h bằng cách ghi đè chúng */
+.books-table, .books-table th, .books-table td {
+    border: none; /* Ẩn đường viền trước đó */
+    padding: 0;   /* Bỏ padding */
+    text-align: left; /* Bỏ căn giữa cho tiêu đề */
+}
+
+/* Đặt lại đường viền cho tất cả ô với độ dày 5 pixel, kiểu solid và màu đen */
+.books-table th, .books-table td {
+    border: 5px solid black;
+}
+/* l. Ẩn các thuộc tính từ câu c-h bằng cách ghi đè chúng */
+.books-table, .books-table th, .books-table td {
+    border: none; /* Loại bỏ đường viền trước đó */
+    padding: 0;   /* Bỏ padding */
+    text-align: left; /* Căn trái cho text của tất cả các ô */
+}
+
+/* Đặt khoảng cách giữa các ô là 5 pixel */
+.books-table {
+    border-spacing: 5px;
+}
+
+/* Thiết lập đường viền 5 pixel, kiểu solid và màu đen */
+.books-table th, .books-table td {
+    border: 5px solid black;
+}
+
+/* m. Thiết lập CSS cho tiêu đề Main Genre và Sub Genre */
+.genre-header {
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+    text-align: center; /* Căn giữa tiêu đề phụ */
+}
+/* Ẩn các thuộc tính từ câu c-h */
+.books-table, .books-table th, .books-table td {
+    border: none; /* Loại bỏ đường viền trước đó */
+    padding: 0;   /* Bỏ padding */
+    text-align: left; /* Căn trái cho text của tất cả các ô */
+}
+
+/* Khoảng cách giữa các ô là 5 pixel */
+.books-table {
+    border-spacing: 5px;
+}
+
+/* Thiết lập đường viền 5 pixel, kiểu solid và màu đen */
+.books-table th, .books-table td {
+    border: 5px solid black;
+}
+
+/* CSS cho tiêu đề của bảng */
+.books-table th {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+/* Ẩn các thuộc tính từ câu c-h */
+.books-table, .books-table th, .books-table td {
+    border: none;
+    padding: 0;
+    text-align: left;
+}
+
+/* Khoảng cách giữa các ô là 5 pixel */
+.books-table {
+    border-spacing: 5px;
+}
+
+/* Đặt lại đường viền */
+.books-table th, .books-table td {
+    border: 5px solid black;
+}
+
+/* Định dạng cho tiêu đề */
+.books-table th {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+/* q. Màu nền cho bảng 1 và bảng 2 */
+.table-1 {
+    background-color: #f9f9f9; /* Màu nền sáng */
+}
+
+.table-2 {
+    background-color: #e0f7fa; /* Màu nền xanh nhạt */
+}
+
+/* r. Định dạng cho bảng con */
+.nested-table th, .nested-table td {
+    border: 1px solid gray;
+    padding: 4px;
+    text-align: center;
+}
